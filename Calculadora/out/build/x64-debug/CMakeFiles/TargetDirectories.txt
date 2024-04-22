@@ -1,0 +1,5 @@
+C:/Users/carlo/source/repos/Calculadora/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/carlo/source/repos/Calculadora/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/carlo/source/repos/Calculadora/out/build/x64-debug/Calculadora/CMakeFiles/Calculadora.dir
+C:/Users/carlo/source/repos/Calculadora/out/build/x64-debug/Calculadora/CMakeFiles/edit_cache.dir
+C:/Users/carlo/source/repos/Calculadora/out/build/x64-debug/Calculadora/CMakeFiles/rebuild_cache.dir

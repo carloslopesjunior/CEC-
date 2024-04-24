@@ -17,15 +17,45 @@ Arquivo::Arquivo(string nome) {
 }
 
 
+void Arquivo::GerarArquivo() {
+
+	int opcao;
+
+	do
+	{
+		opcao = NULL;
+
+		cout << "\n## Menu ##\n";
+		cout << "1 - CSV\n";
+		cout << "2 - Texto\n";
+		cout << "3 - Sair\n";
+		cout << "\nSelecione uma opcao: ";
+
+		cin >> opcao;
+
+		switch (opcao)
+		{
+		case 1:
+			csv();
+			break;
+		case 2:
+			texto();
+			break;
+
+		}
+	} while (opcao < 3);
+}
+
 void Arquivo::csv() {
 
-	string narquivo = userProfile + nomeArquivo + ".csv";;
+	string narquivo = userProfile + nomeArquivo + ".csv";
 	string cabecalhos = "";
 	string linha = "";
 	string registro = "";
 	string coluna;
 	int nrColunas;
 	int nrRegistros;
+	ofstream file;
 
 	cout << "\n############################";
 	cout << "\n Iniciando a criacao de arquivos...";
@@ -38,15 +68,10 @@ void Arquivo::csv() {
 
 	cin >> nrRegistros;
 
-	/* string* nomeColunas = new string[nrColunas];*/
-
 	vector<string> nomeColunas(nrColunas);
-
-	
+		
 	narquivo = LimpaCaminho(narquivo);
-
-	ofstream file;
-
+		
 	file.open(narquivo);
 
 	for (int i = 0; i < nrColunas; i++)
@@ -81,47 +106,42 @@ void Arquivo::csv() {
 		file << linha << "\n";
 		
 	}
-
 	
-
 	file.close();
-
-
 
 	cout << "\nArquivo Criado: " << nomeArquivo;
 
 }
 
 void Arquivo::texto() {
-
-}
-
-void Arquivo::GerarArquivo() {
 	
-	int opcao;
-	
-	do
-	{
+	string arquivo = userProfile + nomeArquivo + ".txt";
+	string linha;
+	string texto;
+	int NrLinhas;
+	ofstream file;
 
-		cout << "\n## Menu ##\n";
-		cout << "1 - CSV\n";
-		cout << "2 - Texto\n";
-		cout << "3 - Sair\n";
-		cout << "\nSelecione uma opcao: ";
+	cout << "Seu documento tera quantas linhas? (Informe somente numeros)";
 
-		cin >> opcao;
+	cin >> NrLinhas;
 
-		switch (opcao)
-		{
-		case 1:
-			csv();
-			break;
-		case 2:
-			texto();
-			break;
+	cout << "Escreva:\n";
 
-		}
-	} while (opcao < 3);
+	file.open(arquivo);
+
+	for (int i = 0; i <= NrLinhas; i++)
+	{		
+		getline(cin, linha);
+		texto = texto + linha + "\n";
+	}
+
+	file << texto;
+
+	file.close();
+
+	cout << "\nArquivo" + arquivo + "Gerado com sucesso!";
+
+
 }
 
 string Arquivo::LimpaCaminho(string caminho) {
@@ -129,7 +149,7 @@ string Arquivo::LimpaCaminho(string caminho) {
 	int pos = 0;
 	while ((pos = caminho.find("\\\\", pos)) != std::string::npos) {
 		caminho.replace(pos, 2, "\\");
-		pos += 1; // Avança para a próxima posição após a substituição
+		pos += 1; 
 	}
 
 	return caminho;

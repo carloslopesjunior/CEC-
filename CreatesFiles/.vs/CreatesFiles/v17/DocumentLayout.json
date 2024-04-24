@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreatesFiles\\CreatesFiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\Inicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreatesFiles\\Inicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\CreatesFiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreatesFiles\\CreatesFiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\Inicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreatesFiles\\Inicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Inicio.cpp",
               "DocumentMoniker": "C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\Inicio.cpp",
               "RelativeDocumentMoniker": "CreatesFiles\\Inicio.cpp",
               "ToolTip": "C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\Inicio.cpp",
               "RelativeToolTip": "CreatesFiles\\Inicio.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-23T20:23:27.735Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "CreatesFiles\\CreatesFiles.cpp",
               "ToolTip": "C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\CreatesFiles.cpp",
               "RelativeToolTip": "CreatesFiles\\CreatesFiles.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAIwIgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-23T12:53:53.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CreatesFiles.h",
               "DocumentMoniker": "C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\CreatesFiles.h",
               "RelativeDocumentMoniker": "CreatesFiles\\CreatesFiles.h",
               "ToolTip": "C:\\git\\C\u002B\u002B\\Cplusplus\\CreatesFiles\\CreatesFiles\\CreatesFiles.h",
               "RelativeToolTip": "CreatesFiles\\CreatesFiles.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-23T12:54:17.599Z",
               "EditorCaption": ""
